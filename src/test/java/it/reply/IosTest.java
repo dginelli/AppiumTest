@@ -2,6 +2,9 @@ package it.reply;
 
 import io.appium.java_client.android.AndroidDriver;
 import io.appium.java_client.ios.IOSDriver;
+
+
+
 import org.junit.After;
 import org.junit.Before;
 import org.junit.Test;
@@ -18,7 +21,7 @@ public class IosTest {
     public void setUp() throws MalformedURLException {
         DesiredCapabilities desiredCapabilities = new DesiredCapabilities();
         desiredCapabilities.setCapability("platformName", "iOS");
-        desiredCapabilities.setCapability("deviceName", "iPhone 14 Pro");
+        desiredCapabilities.setCapability("deviceName", "iPhone 15 Pro");
         desiredCapabilities.setCapability("appium:automationName", "XCUITest");
         desiredCapabilities.setCapability("appium:ensureWebviewsHavePages", true);
         desiredCapabilities.setCapability("appium:nativeWebScreenshot", true);
