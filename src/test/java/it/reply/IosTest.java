@@ -1,9 +1,6 @@
 package it.reply;
 
-import io.appium.java_client.android.AndroidDriver;
 import io.appium.java_client.ios.IOSDriver;
-
-
 
 import org.junit.After;
 import org.junit.Before;
